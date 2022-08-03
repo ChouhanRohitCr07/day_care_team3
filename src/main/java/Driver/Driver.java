@@ -5,7 +5,7 @@
 package Driver;
 
 import Business.DbUtil;
-import Dao.UserDao;
+import Controller.UserController;
 import Model.User;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -19,7 +19,7 @@ import java.util.Date;
 public class Driver {
     
     public static void main(String[] args) {
-		UserDao dao = new UserDao();
+		UserController dao = new UserController();
 
 		// Add new user
 		User user = new User();

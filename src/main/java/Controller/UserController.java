@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Dao;
+package Controller;
 
 import Business.DbUtil;
 import Model.User;
@@ -18,10 +18,10 @@ import java.util.List;
  *
  * @author jarvis
  */
-public class UserDao {
+public class UserController {
     private Connection connection;
 
-	public UserDao() {
+	public UserController() {
 		connection = DbUtil.getConnection();
 	}
 
